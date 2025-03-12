@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    list-style: none;
+
+}
+body{
+    background-color: #000000;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.Braithwaite{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+.menu{
+    height: 18px;
+    width: 18px;
+    margin-left: 27px;
+    margin-top: 18px;
+}
+.ytLogo{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 3px;
+    text-decoration: none;
+    
+}
+.Youtubangas{
+   margin-left: 4px;
+   margin-top: 7px;
+   font-size: 20px;
+   text-decoration: underline black;
+}
+.pesquisa{
+    position: relative;
+    
+}
+
+.search{
+    padding-left: 13px;
+    position: relative;
+    margin-left: 420px;
+    margin-top: 9px;
+    width: 510px;
+    height: 35px;
+    border-radius: 40px 0px 0px 40px;
+    border: 1px solid rgb(61, 59, 59);
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.lupa{
+    background-color: rgb(66, 66, 66);
+    height: 36px;
+    width: 60px;
+    margin-top: 9px;
+    border-radius: 0px 40px 40px 0px;
+    border: none;
+  
+
+    .lupa1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-left: 12px;
+        height: 33px;
+        width: 35px;
+        
+    }
+}
+.lupa:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+
+.microfone{
+    background-color: rgb(66, 66, 66);
+    border-radius: 50px 50px 50px 50px;
+    width: 38px;
+    height: 38px;
+    margin-top: 9px;
+    margin-left: 18px;
+
+    .mic{
+        width: 33px;
+        height: 33px;
+        margin-top: 3px;
+    }
+}
+.microfone:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+
+.joaopedro{
+    .notificacoes{
+        width: 88px;
+        height: 47px;
+        margin-top: 9px;
+        margin-left: 430px;
+    }
+}
+.notificacoes:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+
+.perfil{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 13px;
+    border-radius: 30px;
+}
+.perfil:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+
+.container{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-gap: 22px; 
+    background-color: #000000;
+    max-width: 800px;
+}
+.main{
+    padding-left: 100px;
+  
+}
+.video-principal{
+    border-radius: 10px;
+    box-shadow: 0 0 150px 5px rgba(0, 195, 255, 0.322);
+}
+.titulo-video-principal{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.canal{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+   
+    .perfil-mago:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    
+
+    .like{
+        .joinha{
+           margin-top: 3px;
+           margin-left: 8px; 
+          
+        }
+    .joinha:active{
+        transform: translateY(1px);
+    }
+       
+        .barra{
+            margin-top: 7px;
+            margin-left: 15px;
+            font-size: 13;
+            color: white;
+            cursor: pointer;
+        }
+        
+        margin-left: 380px;
+        background-color: rgb(90, 87, 87);
+        display: flex;
+        width: 100px;
+        height: 30px;
+        border-radius: 40px 0px 0px 40px;
+        border: none;
+        flex-direction: row;
+        
+        .likes{
+            font-size: 13px;
+            margin-top: 8px;  
+            margin-left: 6px;  
+            color: white;
+            cursor: pointer;
+        }
+    }
+    .like:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    .like:active{
+        transform: translateY(1px);
+    }    
+
+    .dislike{
+       
+        background-color: rgb(90, 87, 87);
+        display: flex;
+        width: 50px;
+        height: 30px;
+        border-radius: 0px 40px 40px 0px;
+        border: none;
+        flex-direction: row;
+        .dislikes{
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        .dislikes:hover{
+            cursor: pointer;
+            background-color: rgb(56, 56, 56);
+        }
+        .dislikes:active{
+            transform: translateY(1px);
+        }    
+    }
+    .dislike:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    .dislike:active{
+        transform: translateY(1px);
+    }    
+    .inscreva-se{
+        background-color: rgb(255, 255, 255);
+        width: 110px;
+        height: 37px;
+        border-radius: 40px;
+        border: none;
+        margin-left: 30px;
+        
+    }
+    .inscreva-se:hover{
+        cursor: pointer;
+        background-color: rgb(233, 224, 224);
+    }
+    
+    .nomeeinscritos{
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .falido{
+        margin-left: 12px;
+        color: rgba(240, 255, 255, 0.596);
+    }
+    .name{
+       margin-left: 12px;
+       margin-bottom: 3px;
+     
+    }
+    img{
+        border-radius: 100%;
+    }
+
+    .compartilhar{
+        margin-left: 10px;
+        background-color: rgb(90, 87, 87);
+        display: flex;
+        width: 140px;
+        height: 30px;
+        border-radius: 40px;
+        border: none;
+        flex-direction: row;
+        .iconc{
+            margin-left: 10px; 
+        }
+        .compartibangas{
+            color: white;
+            font-size: 14px;
+            margin-top: 6px;
+            margin-left: 3px;
+
+        }
+    }
+    .compartilhar:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    .compartilhar:active{
+        transform: translateY(1px);
+    }    
+
+    .download{
+        margin-left: 10px;
+        background-color: rgb(90, 87, 87);
+        display: flex;
+        width: 140px;
+        height: 30px;
+        border-radius: 40px;
+        border: none;
+        flex-direction: row;
+        .baixar{
+            margin-left: 10px;
+        }
+        .baixarr{
+            margin-top: 6px;
+            color: white;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+    .download:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    .download:active{
+        transform: translateY(1px);
+    }    
+    .clipe{
+        margin-left: 10px;
+        background-color: rgb(90, 87, 87);
+        display: flex;
+        width: 100px;
+        height: 30px;
+        border-radius: 40px;
+        border: none;
+        flex-direction: row;
+        .valeu{
+            margin-left: 10px;
+
+        }
+        .valeutxt{
+            color: white;
+            margin-top: 6px;
+            font-size: 14px;
+            
+        }
+    }
+    .clipe:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    .clipe:active{
+        transform: translateY(1px);
+    }    
+    .pontinhos{
+        margin-left: 10px;
+        background-color: rgb(90, 87, 87);
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+        border: none;
+        flex-direction: row;
+        .pontos{
+            color: white;
+            margin-top: 3px;
+            font-size: 14px;
+            margin-left: 9px;
+        }
+    }
+    .pontinhos:hover{
+        cursor: pointer;
+        background-color: rgb(56, 56, 56);
+    }
+    .pontinhos:active{
+        transform: translateY(1px);
+    }    
+}
+
+.desc{
+    margin-top: 30px;
+    background-color: rgba(128, 128, 128, 0.438);
+    width: 1280px;
+    height: 100px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    .visu{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        margin-left: 20px;
+        padding-top: 12px;
+        
+    }
+    .descriçao{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 3px;
+    }
+}
+.desc:hover{
+    cursor: pointer;
+    background-color: rgb(39, 37, 37);
+}
+
+.desc:active{
+    transform: translateY(1px);
+    height: 250px;
+}    
+
+
+.logoComent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+
+
+.titComent{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.AdicioneComent{
+    height: 35px;
+    width: 1220px;
+
+    background-color: transparent;
+    color: white;
+            
+    border-bottom: 2px solid rgb(105, 105, 105);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.logoon{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.botaoComentcomentar{
+    color: aliceblue;
+    background-color: rgb(56, 56, 56);
+    border-radius: 40px 40px 40px 40px ;
+    font-size: 14px;
+    width: 95px;
+    height: 35px;
+}
+.botaoComentcomentar:active{
+    transform: translateY(4px);
+}
+.botaoComentcancelar{
+    margin-right: 30px;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.botaoComentcomentar:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+.botaoComentcancelar:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+    width: 95px;
+    height: 35px;
+    border-radius: 40px 40px 40px 40px ;
+}
+.botaoComentcancelar:active{
+    transform: translateY(4px);
+}
+.ft_kendo{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+}
+.kendo{
+    font-size: 12px;
+    margin-top: 24px;
+    margin-left: 13px;
+    display: inline-block;
+    cursor: pointer;
+}
+.comentKendo{
+    color: #aaaa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    margin-top: 24px;
+    
+}
+.comentario3{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.likeanddis{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: start;
+}
+.likeComent{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.likeComent:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+.likeComent:active{
+    transform: translateY(4px);
+}
+.dilikeComent{
+    background-color: transparent;
+    width: 22px;
+    height: 22px;
+    display: inline;
+    margin-top: 9px;
+    margin-left: 10px;
+
+}
+.dilikeComent:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+.dilikeComent:active{
+    transform: translateY(4px);
+}
+.likeComent1{
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-top: 5px;
+}
+.likeComent1:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+.likeComent1:active{
+    transform: translateY(4px);
+}
+.dilikeComent1{
+    background-color: transparent;
+    width: 22px;
+    height: 22px;
+    display: inline;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.dilikeComent1:hover{
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+.dilikeComent1:active{
+    transform: translateY(4px);
+}
+
+.aside{
+    color: #000000;
+    
+}
+.videos{
+    display: flex;
+}
+.video-machado{
+    height: 120px;
+    width: 200px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    
+}
+.titulos-videos-secundarios{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.info-videos-secundarios{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #aaaa; 
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 1201px) and (max-width: 1700px){ 
+        main{
+            width: 1300px;
+        .video-principal{
+        height: 70%;
+        width: 1100px;
+        border-radius: 20px;
+        }
+        .visu{
+            width: 300px;
+        }
+        
+        .desc{
+            width: 100px;
+            height: 100px;
+        }
+
+        .comentario1{
+            width: 90%;
+            height: 29px;
+        }
+        
+    }
+}
+
+
+
+@media (min-width: 1301px) and (max-width: 1400px){ 
+    main{
+        .video-principal{
+        height: 70%;
+        width: 900px;
+
+        border-radius: 20px;
+        }
+
+        .desc{
+            width: 10px;
+            height: 50%;
+        }
+
+        .comentario1{
+            width: 900px;
+            height: auto;
+        }
+        
+    }
+    aside{
+        width: 70%;
+        height: auto;
+    }
+}
+
+
+
+@media (min-width: 1003px) and (max-width: 1280px){ 
+    main{
+        .video-principal{
+        height: 75%;
+        width: 720px;
+
+        border-radius: 20px;
+        }
+
+        .desc{
+            width:550px;
+            height: 300px;
+        }
+
+        .comentario1{
+            width: 650px;
+            height: auto;
+        }
+        
+    }
+}
+
+@media (min-width: 250px) and (max-width: 900px){ 
+    aside{
+        margin-left: 3%;
+        .box{
+            width: 100%;
+            height: auto;
+
+            margin-top: 6px;
+
+            .desc{
+                h3{
+                color: rgb(255, 255, 255);
+                font-size: 15px;
+                }
+
+                p{
+                    color: rgb(12, 13, 14);
+                    font-size: 10px;
+                } 
+            }
+
+            .video{
+                width: 140px;
+                height: auto;
+            }
+        }
+    }
+}
